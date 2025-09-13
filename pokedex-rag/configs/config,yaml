@@ -1,0 +1,17 @@
+paths:
+  input_txt: "./data/pokemon_data.txt"
+  parent_store: "./data/parent_docstore.jsonl"
+  chroma_dir: "./data/chroma_child"
+  manifest: "./data/index_manifest.json"
+vector:
+  collection_name: "pokemon_child_idx"
+  embed_model: "nomic-embed-text"
+retrieval:
+  global_token_cap: 2048
+  expand_siblings: true
+  k_children: 32
+  mmr: true
+  fetch_k: 64
+model:
+  chat_model: "deepseek-r1:32b"
+  temperature: 0.2

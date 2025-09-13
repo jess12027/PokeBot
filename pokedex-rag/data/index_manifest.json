@@ -1,0 +1,11 @@
+{
+  "input_path": "C:\\Users\\Jessie\\Projects\\Pokedex\\Data\\pokemon_data.txt",
+  "persist_dir": "C:\\Users\\Jessie\\Projects\\Pokedex\\Data\\VectorStore\\chroma_child",
+  "collection_name": "pokemon_child_idx",
+  "parent_store": "C:\\Users\\Jessie\\Projects\\Pokedex\\Data\\VectorStore\\parent_docstore.jsonl",
+  "child_strategy": "title_sim",
+  "counts": {
+    "parents": 10250,
+    "children": 10250
+  }
+}

@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic<2.9           # (optional pin if needed)
+langchain-community
+langchain-ollama
+chromadb
+scikit-learn           # for title_sim (optional but nice)
+python-dotenv
+pyyaml
